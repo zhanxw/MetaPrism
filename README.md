@@ -14,6 +14,8 @@ MetaPrism provides joint profile (infer both taxonomical and functional profile)
 
 ## Requirements
 
+Software requirements
+
 1. Perl - https://www.perl.org
 2. R - http://www.r-project.org
 3. Perl module Statistics::R - https://metacpan.org/pod/Statistics::R
@@ -26,6 +28,9 @@ MetaPrism provides joint profile (infer both taxonomical and functional profile)
 10. Linux commands: sort, wget - https://www.gnu.org/software/wget/
 11. MEGAHIT - https://github.com/voutcn/megahit (optional) 
 
+Hardware requirements
+
+To successfully use MetaPrism to analyze the metagenomics samples, you will need at least 10GB memory on a computation node. However, larger memory is recommended. The authors have successfully run the analysis on Linux computational nodes with 128GB memory. For each sample, we recommend 2GB hard disk space.
 
 ## Install
 
